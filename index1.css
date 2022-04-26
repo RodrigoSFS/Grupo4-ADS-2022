@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    border: 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+nav{
+    border: 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+main{
+    border: 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+section{
+    display: inline-block;
+    width: 700px;
+    height: 500px;
+    border: 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+article{
+    height: 200px;
+    border: 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.aside1{
+    position: relative;
+    float: right;
+    width: 600px;
+    height: 500px;
+    border: 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+footer{
+    border: 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
