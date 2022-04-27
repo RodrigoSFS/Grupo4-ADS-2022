@@ -17,14 +17,16 @@ nav{
 }
 
 main{
+    height: 565px;
     border: 3px solid;
     margin: 10px;
     padding: 10px;
 }
 
 section{
-    display: inline-block;
-    width: 700px;
+    position: relative;
+    float: left;
+    width: 500px;
     height: 500px;
     border: 3px solid;
     margin: 10px;
@@ -38,10 +40,21 @@ article{
     padding: 10px;
 }
 
+aside{
+    position: relative;
+    float: right;
+    height: 130px;
+    width: 200px;
+    border: 3px solid;
+    padding: 10px;
+    margin: 10px;
+
+}
+
 .aside1{
     position: relative;
     float: right;
-    width: 600px;
+    width: 300px;
     height: 500px;
     border: 3px solid;
     margin: 10px;
@@ -51,6 +64,7 @@ article{
 
 
 footer{
+    position: relative;
     border: 3px solid;
     margin: 10px;
     padding: 10px;
